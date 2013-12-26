@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="50" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Golf" tilewidth="64" tileheight="64">
+  <image source="tilemap.png" width="1024" height="1024"/>
+  <terraintypes>
+   <terrain name="Rough" tile="0"/>
+   <terrain name="Fairway" tile="1"/>
+   <terrain name="Green" tile="16"/>
+   <terrain name="Bunker" tile="17"/>
+   <terrain name="Water" tile="19"/>
+  </terraintypes>
+  <tile id="0" terrain="0,0,0,0"/>
+  <tile id="1" terrain="1,1,1,1"/>
+  <tile id="4" terrain="1,2,1,2"/>
+  <tile id="5" terrain="2,1,2,1"/>
+  <tile id="6" terrain="1,1,1,2"/>
+  <tile id="7" terrain="1,1,2,1"/>
+  <tile id="16" terrain="2,2,2,2"/>
+  <tile id="17" terrain="3,3,3,3"/>
+  <tile id="19" terrain="4,4,4,4"/>
+  <tile id="20" terrain="2,2,1,1"/>
+  <tile id="21" terrain="1,1,2,2"/>
+  <tile id="22" terrain="1,2,1,1"/>
+  <tile id="23" terrain="2,1,1,1"/>
+  <tile id="32" terrain="1,1,1,3"/>
+  <tile id="33" terrain="1,1,3,1"/>
+  <tile id="34" terrain="3,3,3,1"/>
+  <tile id="35" terrain="3,3,1,3"/>
+  <tile id="44" terrain="1,3,1,3"/>
+  <tile id="45" terrain="3,1,3,1"/>
+  <tile id="46" terrain="1,1,1,4"/>
+  <tile id="47" terrain="1,1,4,1"/>
+  <tile id="48" terrain="1,3,1,1"/>
+  <tile id="49" terrain="3,1,1,1"/>
+  <tile id="50" terrain="3,1,3,3"/>
+  <tile id="51" terrain="1,3,3,3"/>
+  <tile id="60" terrain="3,3,1,1"/>
+  <tile id="61" terrain="1,1,3,3"/>
+  <tile id="62" terrain="1,4,1,1"/>
+  <tile id="63" terrain="4,1,1,1"/>
+  <tile id="64" terrain="4,4,4,1"/>
+  <tile id="65" terrain="4,4,1,4"/>
+  <tile id="74" terrain="1,4,1,4"/>
+  <tile id="75" terrain="4,1,4,1"/>
+  <tile id="76" terrain="0,0,0,1"/>
+  <tile id="77" terrain="0,0,1,0"/>
+  <tile id="78" terrain="1,1,1,0"/>
+  <tile id="79" terrain="1,1,0,1"/>
+  <tile id="80" terrain="4,1,4,4"/>
+  <tile id="81" terrain="1,4,4,4"/>
+  <tile id="90" terrain="4,4,1,1"/>
+  <tile id="91" terrain="1,1,4,4"/>
+  <tile id="92" terrain="0,1,0,0"/>
+  <tile id="93" terrain="1,0,0,0"/>
+  <tile id="94" terrain="1,0,1,1"/>
+  <tile id="95" terrain="0,1,1,1"/>
+  <tile id="104" terrain="0,1,0,1"/>
+  <tile id="105" terrain="1,0,1,0"/>
+  <tile id="106" terrain="3,3,3,0"/>
+  <tile id="107" terrain="3,3,0,3"/>
+  <tile id="108" terrain="0,0,0,3"/>
+  <tile id="109" terrain="0,0,3,0"/>
+  <tile id="120" terrain="1,1,0,0"/>
+  <tile id="121" terrain="0,0,1,1"/>
+  <tile id="122" terrain="3,0,3,3"/>
+  <tile id="123" terrain="0,3,3,3"/>
+  <tile id="124" terrain="0,3,0,0"/>
+  <tile id="125" terrain="3,0,0,0"/>
+  <tile id="134" terrain="0,3,0,3"/>
+  <tile id="135" terrain="3,0,3,0"/>
+  <tile id="136" terrain="0,0,0,4"/>
+  <tile id="137" terrain="0,0,4,0"/>
+  <tile id="138" terrain="4,4,4,0"/>
+  <tile id="139" terrain="4,4,0,4"/>
+  <tile id="150" terrain="3,3,0,0"/>
+  <tile id="151" terrain="0,0,3,3"/>
+  <tile id="152" terrain="0,4,0,0"/>
+  <tile id="153" terrain="4,0,0,0"/>
+  <tile id="154" terrain="4,0,4,4"/>
+  <tile id="155" terrain="0,4,4,4"/>
+  <tile id="164" terrain="0,4,0,4"/>
+  <tile id="165" terrain="4,0,4,0"/>
+  <tile id="166" terrain="2,2,2,1"/>
+  <tile id="167" terrain="2,2,1,2"/>
+  <tile id="180" terrain="4,4,0,0"/>
+  <tile id="181" terrain="0,0,4,4"/>
+  <tile id="182" terrain="2,1,2,2"/>
+  <tile id="183" terrain="1,2,2,2"/>
+ </tileset>
+ <tileset firstgid="257" name="Trees" tilewidth="256" tileheight="256">
+  <image source="tree_tiles.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2LtKA0EUxvE1UWNrUGOrWAuitW+g5gXUtInBXiW2Xnvx0np5TL8DMzAM842zcxHEKf4IFvnl7GQPy3abpumS5jL2jlbQh8dj7gG69HRIzDv0luCOUQ+tOVpCp8TXs8a4MusILaBlR4uoo5oQ9wG9tHC12Ul0Q2a1591UnzlAq+gr0E052xu0a9iuuZmbcrbi9tG28dkDY+ZPtK7+f4ROMpwtc81rLuYG2s98tszVibmHztB1RneGph53B22hK3TexP+mXDtjRkx9pn3VrWPWWFfvxxFxJ+p7PVnXue1vynbHnlkl2Y+u3dz2bNu69r3zGy4zS7v2/ZrrHqru/3bZvVva9c1c3eoys7rVre7fcUvsjVd0H+EeoyExQ57rUq612BeqYYApPaPHxGvt+g4+M9cZx5b6DF3dcm4Ou6Rrvj9k7+pKuOY+s5+nY90QW9x55cpf1/urUi7b1ynuT7bpsvdmJVxzd9u7k7nf1jiLiA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="30" height="50">
+  <object name="Hole" x="923" y="228">
+   <ellipse/>
+  </object>
+  <object name="Tee" x="1246" y="2983">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object Layer 2" width="30" height="50">
+  <object gid="257" x="178" y="276"/>
+  <object gid="257" x="-43" y="719"/>
+  <object gid="257" x="166" y="1119"/>
+  <object gid="257" x="2" y="1492"/>
+  <object gid="257" x="196" y="2046"/>
+  <object gid="257" x="-40" y="2434"/>
+  <object gid="257" x="239" y="3022"/>
+  <object gid="257" x="1711" y="3204"/>
+  <object gid="257" x="1693" y="2349"/>
+  <object gid="257" x="1599" y="1886"/>
+  <object gid="257" x="1648" y="1243"/>
+  <object gid="257" x="1757" y="610"/>
+  <object gid="257" x="1190" y="1404"/>
+  <object gid="257" x="1233" y="2713"/>
+  <object gid="258" x="33" y="3195"/>
+  <object gid="258" x="196" y="2713"/>
+  <object gid="258" x="8" y="2116"/>
+  <object gid="258" x="133" y="1761"/>
+  <object gid="258" x="-16" y="1134"/>
+  <object gid="258" x="130" y="661"/>
+  <object gid="258" x="14" y="267"/>
+  <object gid="258" x="1714" y="934"/>
+  <object gid="258" x="1651" y="1573"/>
+  <object gid="258" x="1724" y="2622"/>
+  <object gid="258" x="1136" y="1943"/>
+  <object gid="259" x="308" y="3219"/>
+  <object gid="259" x="24" y="2864"/>
+  <object gid="259" x="14" y="1867"/>
+  <object gid="259" x="163" y="1401"/>
+  <object gid="259" x="69" y="901"/>
+  <object gid="259" x="30" y="425"/>
+  <object gid="259" x="1345" y="204"/>
+  <object gid="259" x="1687" y="2073"/>
+  <object gid="259" x="1684" y="1086"/>
+  <object gid="259" x="1702" y="3031"/>
+  <object gid="260" x="1302" y="2313"/>
+  <object gid="260" x="366" y="310"/>
+  <object gid="260" x="272" y="937"/>
+  <object gid="260" x="36" y="1622"/>
+  <object gid="260" x="117" y="2367"/>
+  <object gid="260" x="20" y="2643"/>
+  <object gid="260" x="417" y="3019"/>
+ </objectgroup>
+</map>
